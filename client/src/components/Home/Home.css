@@ -1,0 +1,45 @@
+.boxes {
+    /* background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.6)
+      ),url('../../Images/prueba.gif'); */
+    background-color: none;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-top: 8px;
+    background-size: cover;
+}
+
+.contBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#dogsList{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#SB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media only screen and (max-width: 880px){
+    .contBoxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

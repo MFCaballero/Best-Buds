@@ -1,0 +1,39 @@
+
+.contPag{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    list-style: none;
+    margin-left: -20px;
+}
+.contPag a{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#1A1A1A;
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+    color: white;
+    box-shadow: 5px 5px 15px 5px black;
+}
+
+.contPag a:hover{
+    color: white;
+    background-color: #A100C2;
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+}
+
+.active a{
+    color: white;
+    background-color: #A100C2; 
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 880px){
+    .contPag a{
+        font-size: 12px;
+    }
+}

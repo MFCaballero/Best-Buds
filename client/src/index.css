@@ -1,0 +1,9 @@
+body {
+  font-family: 'Kristen ITC';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.6)
+      ),url('./Images/fondo.gif');
+}

@@ -1,0 +1,215 @@
+.contCB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formCB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1000px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* background-color: white; */
+}
+.textImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.img-form{
+    width: 200px;
+    height: 200px;
+    border: solid 1px #1A1A1A;
+}
+.titleForm{
+    text-align: center;
+}
+.cont-inputs{
+    margin-left: 120px;
+    width: 1000px;
+}
+.lineForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 350px;
+}
+.inputForm{
+    height: 20px;
+    margin-left: 5px;
+    width: 245px;
+    font-family: 'Kristen ITC';
+    color: #1A1A1A;
+    font-size: 16px;
+    text-align: center;
+}
+.file{
+    height: 25px;
+}
+.two{
+    width: 100px;
+    margin-left: 5px;
+}
+.inputFormS{
+    margin-left: 5px;
+    width: 200px;
+    height: 25px;
+    font-family: 'Kristen ITC';
+    color: #1A1A1A;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.divtemp2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: 500px;
+    margin-left: 450px;
+}
+.tempCard2{
+    margin: 5px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A100C2;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.tempText2{
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+}
+.btnTemp2{
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn-form{
+    background-color: #A100C2;;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+    cursor: pointer;
+}
+.div-btnF{
+    margin-left: 180px;
+    margin-bottom: 25px;
+}
+.popup{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A100C2;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-size: cover;
+    margin-top: 50px;
+}
+.text-popup{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+}
+.close-btn{
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    color: #1A1A1A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+    cursor: pointer;
+}
+.danger{
+    font-size: 10px;
+    color: red;
+}
+
+@media only screen and (max-width: 880px){
+    .formCB{
+        width: 300px;
+    }
+    .img-form{
+        display: none;
+    }
+    .textImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .cont-inputs{
+        width: 290px;   
+    }
+    .lineForm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 285px;
+    }
+    .divtemp2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-around;
+        width: 290px;
+        margin-left: 5px;
+    }
+    .div-btnF{
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+}

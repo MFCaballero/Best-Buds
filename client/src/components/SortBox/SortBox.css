@@ -1,0 +1,72 @@
+
+.select{
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+    color: #1A1A1A;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.option{
+    font-family: 'Kristen ITC';
+    font-weight: 900;
+    color: #1A1A1A;
+    font-size: 16px;
+    text-align: center;
+}
+.formFilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divtemp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: 420px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.tempCard{
+    margin:5px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A100C2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.tempText{
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+}
+.btnTemp{
+    background-color: #A100C2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 880px){
+    .formFilter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

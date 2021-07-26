@@ -1,0 +1,56 @@
+.dogCard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    box-shadow: 5px 5px 15px 5px black;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.dogCard:hover{
+    transform: scale(1.03);
+}
+.img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.divProps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: white; */
+    border-radius: 0 0 10px 10px;
+}
+.divName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    
+}
+.name{
+    color: #1A1A1A;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.tempsDiv{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.indvTemp{
+    margin: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    background-color:#A100C2;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}

@@ -1,0 +1,139 @@
+
+.contExt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contDogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.contPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont-loading{
+    display: flex;
+    justify-content: center;
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.img-loading {
+    margin-top: -50px;
+}
+.divNF{
+    display: flex;
+    justify-content: center;
+}
+.not-found{
+    background-color: #A100C2;
+    width: 400px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-size: cover;
+    margin-top: 50px;
+}
+.NFtext{
+    text-align: center;
+    color: white;
+    /* text-shadow: -2px 0 white, 0 2px white,
+    2px 0 white, 0 -2px white; */
+    font-size: 30px;
+    margin: 0px;
+}
+.cont-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px;
+    align-self: center;
+}
+.img-detail{
+    width: 700px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+}
+
+.detail-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.label2{
+    font-size: 20px;
+    margin: 15px;
+}
+.div-card2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-bottom: 10px;
+   
+}
+.card2{
+    margin: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #A100C2;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    text-align: center;
+
+}
+@media only screen and (max-width: 1060px){
+    .cont-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;  
+    }
+    .img-detail{
+        width: 300px;
+        border-radius: 10px 10px 0 0;
+        align-self: flex-start;
+    }
+    .div-card2{
+        width: 300px;
+    }
+    .label2{
+        font-size: 16px;
+        margin: 15px;
+    }
+    .card2{
+        font-size: 16px;
+    }
+   
+}
